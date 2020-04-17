@@ -5,7 +5,7 @@
  * writefile(文件路径,callback)         创建写入文件
  * appendFile(文件路径，callback)       追加文件，如果文件不存在则创建 
  * readFile(文件路径，callback)         读取文件，需要注意的是，读取的文件内容是16进制的字节符，需要用toString方法转换为字符串
- * readdir(文件路径，callback)          取目录下的所有文件，以数组形式输出
+ * readdir(文件路径，callback)          读取目录下的所有文件，以数组形式输出
  * rename(文件路径,修改后的文件名或路径 callback)       修改文件信息，可以是文件名，文件路径 
  * rmdir(文件夹路径，callback)          删除文件夹，如果文件夹不为空则会报错
  * unlink(文件路径，callback)           删除文件
